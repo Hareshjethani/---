@@ -1,9 +1,12 @@
- Mask2Rep: Self-Supervised Image Representation Learning
+Perfect! Here is the complete and final README.md file, fully formatted. You can copy and paste this code directly into your GitHub repository:
+
+Markdown
+# Mask2Rep: Self-Supervised Image Representation Learning
 
 **Mask2Rep** is a custom-built Masked Autoencoder (MAE) trained entirely from scratch using PyTorch. The model leverages the power of Self-Supervised Learning (SSL) to reconstruct high-fidelity spatial and semantic representations from heavily occluded images (75% masked).
 
-**Read the Full Technical Deep-Dive on Medium:** [Mask2Rep Article](https://medium.com/@hjethani20/demystifying-self-supervised-learning-building-a-masked-autoencoder-mae-from-scratch-8f82b146f78f)  
-**Try the Live Interactive Demo:** [Hugging Face Space]([https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning](https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning))
+📖 **Read the Full Technical Deep-Dive on Medium:** [Mask2Rep Article](https://medium.com/@hjethani20/demystifying-self-supervised-learning-building-a-masked-autoencoder-mae-from-scratch-8f82b146f78f)  
+⚙️ **Try the Live Interactive Demo:** [Hugging Face Space](https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning)
 
 ---
 
@@ -31,9 +34,9 @@ At the core of Mask2Rep is an **Asymmetric Vision Transformer (ViT)**. The archi
 ## How to Run Locally
 
 ### 1. Clone the Repository
-
-git clone [https://github.com/YOUR_GITHUB_USERNAME/Mask2Rep.git](https://github.com/YOUR_GITHUB_USERNAME/Mask2Rep.git)
-cd Mask2Rep
+```bash
+git clone [https://github.com/Hareshjethani/Mask2Rep-Self-Supervised-Image-Representation-Learning.git](https://github.com/Hareshjethani/Mask2Rep-Self-Supervised-Image-Representation-Learning.git)
+cd Mask2Rep-Self-Supervised-Image-Representation-Learning
 2. Install Dependencies
 Bash
 pip install -r requirements.txt
