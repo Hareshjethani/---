@@ -1,6 +1,3 @@
-Perfect! Here is the complete and final README.md file, fully formatted. You can copy and paste this code directly into your GitHub repository:
-
-Markdown
 # Mask2Rep: Self-Supervised Image Representation Learning
 
 **Mask2Rep** is a custom-built Masked Autoencoder (MAE) trained entirely from scratch using PyTorch. The model leverages the power of Self-Supervised Learning (SSL) to reconstruct high-fidelity spatial and semantic representations from heavily occluded images (75% masked).
