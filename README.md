@@ -1,13 +1,12 @@
  Mask2Rep: Self-Supervised Image Representation Learning
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)
-![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
+![HuggingFace]([https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge](https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning))
 
 **Mask2Rep** is a custom-built Masked Autoencoder (MAE) trained entirely from scratch using PyTorch. The model leverages the power of Self-Supervised Learning (SSL) to reconstruct high-fidelity spatial and semantic representations from heavily occluded images (75% masked).
 
-**Read the Full Technical Deep-Dive on Medium:** [Mask2Rep Article](https://medium.com/p/8f82b146f78f)  
-**Try the Live Interactive Demo:** [Hugging Face Space](https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning)
+**Read the Full Technical Deep-Dive on Medium:** [Mask2Rep Article](https://medium.com/@hjethani20/demystifying-self-supervised-learning-building-a-masked-autoencoder-mae-from-scratch-8f82b146f78f)  
+**Try the Live Interactive Demo:** [Hugging Face Space]([https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning](https://huggingface.co/spaces/haresh8765/Mask2Rep-Self-Supervised-Image-Representation-Learning))
 
 ---
 
@@ -35,7 +34,7 @@ At the core of Mask2Rep is an **Asymmetric Vision Transformer (ViT)**. The archi
 ## How to Run Locally
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/YOUR_GITHUB_USERNAME/Mask2Rep.git](https://github.com/YOUR_GITHUB_USERNAME/Mask2Rep.git)
 cd Mask2Rep
 2. Install Dependencies
@@ -48,14 +47,7 @@ Bash
 python inference.py --image_path ./sample_images/test.jpg --mask_ratio 0.75
 (Note: Ensure you download the pre-trained weights from Hugging Face before running inference.)
 
-Results
-Here is a visual representation of how the model learns to reconstruct missing patches across epochs:
-
-(Add an image here showing Original | Masked | Reconstructed)
-
 Team
 This project was built and deployed collaboratively by:
 
 Haresh Kumar
-
-Zahid Iqbal
